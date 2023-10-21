@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(179, 156, 156);
+  height: 35px;
+  border-radius: 10px;
+}
+
+body {
+  background: rgb(102, 82, 82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  border-radius: 30px;
+}
+h1 {
+  color: brown;
+}
+input {
+  height: 40px;
+  background-color: hsl(0, 2%, 51%);
+  border: none;
+  margin-top: 30px;
+  outline: none;
+  padding-left: 10px;
+  cursor: pointer;
+}
+button {
+  background-color: rgb(228, 159, 95);
+  height: 35px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+&:hover {
+}
+p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 0 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+
+}
+trashbutton {
+    
+}
